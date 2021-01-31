@@ -1,0 +1,41 @@
+{
+  "name": "spheres-sheet",
+  "title": "Spheres Character Sheet",
+  "description": "A simple module to make the character sheet more friendly for spheres of power and might usage.",
+  "author": "Xavion",
+  "version": "0.0.1",
+  "minimumCoreVersion": "0.6.4",
+  "systems": ["pf1"],
+  "esmodules": ["./scripts/sheet.js"],
+  "styles": ["./css/spheres.css"],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "packs": [
+    {
+      "name": "combat-talents",
+      "label": "Combat Talents",
+      "system": "pf1",
+      "path": "./packs/combat-talents.db",
+      "entity": "Item"
+    },
+    {
+      "name": "som-feats",
+      "label": "Spheres of Might Feats",
+      "system": "pf1",
+      "path": "./packs/som-feats.db",
+      "entity": "Item"
+    },
+    {
+      "name": "som-items",
+      "label": "Spheres of Might Items",
+      "system": "pf1",
+      "path": "./packs/som-items.db",
+      "entity": "Item"
+    }
+  ]
+}
