@@ -102,3 +102,6 @@ dist
 
 # TernJS port file
 .tern-port
+
+# Spheres Icons - Pending License information
+icons/spheres
