@@ -36,6 +36,20 @@
       "system": "pf1",
       "path": "./packs/som-items.db",
       "entity": "Item"
+    },
+    {
+      "name": "som-classes",
+      "label": "Spheres of Might Classes",
+      "system": "pf1",
+      "path": "./packs/som-classes.db",
+      "entity": "Item"
+    },
+    {
+      "name": "som-class-abilities",
+      "label": "Spheres of Might Class Features",
+      "system": "pf1",
+      "path": "./packs/som-class-abilities.db",
+      "entity": "Item"
     }
   ]
 }
