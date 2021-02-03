@@ -7,6 +7,9 @@ import { ActorSheetPF } from "../../../systems/pf1/module/actor/sheets/base.js";
 import { ItemSheetPF } from "../../../systems/pf1/module/item/sheets/base.js";
 import { ActorSheetPFCharacter } from "../../../systems/pf1/module/actor/sheets/character.js";
 import { ActorSheetPFNPC } from "../../../systems/pf1/module/actor/sheets/npc.js";
+import {
+  convertWeight
+} from "../../../systems/pf1/module/lib.js";
 
 function injectIntoClass(classObj, functionName, prior, injection) {
   console.log(`SpheresSheet | Injecting into ${classObj.name}.${functionName}`);
